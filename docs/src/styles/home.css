@@ -61,6 +61,7 @@
 #banner img {
     height: 100%;
     width: fit-content;
+    align-items: center;
 }
 
 .shape {

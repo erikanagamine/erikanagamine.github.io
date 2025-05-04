@@ -6,19 +6,19 @@
 @import url('footer.css');
 
 :root {
-    --color-primary-1: #B7B1F2;
-    --color-primary-2: #FDB7EA;
-    --color-primary-3: #FFDCCC;
-    --color-primary-4: #FBF3B9;
-    --color-primary-5: #ffcb45;
-    --color-primary-6: #e9a209;
+    --color-primary-1: #A72E60;
+    --color-primary-2: #B8336A;
+    --color-primary-3: #726DA8;
+    --color-primary-4: #7D8CC4;
+    --color-primary-5: #9143B0;
+    --color-primary-6: #B26FC3;
 
-    --color-neutral-0: #fff;
-    --color-neutral-1: #1d1d1d;
+    --color-neutral-0: #B26FC3;
+    --color-neutral-1: #E8D4ED;
 }
 
 * {
-    font-family: 'Dancing Script', sans-serif;
+    font-family: "Comic Relief", system-ui;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
