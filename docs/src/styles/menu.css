@@ -65,7 +65,7 @@
     }
 
     .dish {
-        width: calc(50% - 12px);
+        width: calc(50% - 5px);
     }
 }
 

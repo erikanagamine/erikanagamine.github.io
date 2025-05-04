@@ -59,7 +59,8 @@
 }
 
 #banner img {
-    height: 100%;
+    width: 30%;
+    height: auto;
     width: fit-content;
     align-items: center;
 }
