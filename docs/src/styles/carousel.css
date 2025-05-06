@@ -1,0 +1,36 @@
+#carousel-section {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.carousel-item {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-item h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.carousel-item p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}

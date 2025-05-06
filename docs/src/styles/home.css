@@ -1,20 +1,26 @@
+/* Home Section */
 #home {
     display: flex;
     min-height: calc(100vh - 91px);
     position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8%;
 }
 
 #cta {
-    width: 35%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 28px;
     margin-top: 5%;
+    text-align: center;
 }
 
 #cta .title {
-    font-size: 4rem;
-    color: var(--color-neutral-1);;
+    font-size: 2.5rem;
+    color: var(--color-neutral-1);
 }
 
 #cta .title span {
@@ -23,16 +29,18 @@
 
 #cta .description {
     font-size: 1.2rem;
+    color: var(--color-neutral-1);
 }
 
 #cta_buttons {
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 #cta_buttons a {
     text-decoration: none;
-    color: var(--color-neutral-1);;
+    color: var(--color-neutral-1);
 }
 
 #phone_button {
@@ -44,12 +52,14 @@
     font-weight: 500;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
+    margin-top: 16px;
 }
 
 #phone_button button {
     box-shadow: none;
 }
 
+/* Banner adjustments */
 #banner {
     display: flex;
     align-items: start;
@@ -59,7 +69,7 @@
 }
 
 #banner img {
-    width: 30%;
+    width: 40%;
     height: auto;
     width: fit-content;
     align-items: center;
@@ -76,12 +86,53 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 1170px) {
-    #home {
-        min-height: 100%;
-        padding-top: 0px;
+/* Media Queries for Larger Screens */
+@media screen and (min-width: 600px) {
+    #cta .title {
+        font-size: 3rem;
     }
 
+    #cta_buttons {
+        gap: 32px;
+    }
+
+    #phone_button {
+        font-weight: 600;
+    }
+}
+
+/* Media Queries for Even Larger Screens */
+@media screen and (min-width: 1170px) {
+    #home {
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+    #cta {
+        width: 35%;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    #banner {
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        width: 60%;
+        z-index: 2;
+    }
+
+    #banner img {
+        width: 40%;
+    }
+
+    .shape {
+        display: block;
+    }
+}
+
+/* Mobile-First Adjustments */
+@media screen and (max-width: 1170px) {
     #banner,
     #banner img,
     #home .shape {
@@ -90,8 +141,6 @@
 
     #cta {
         width: 100%;
-        text-align: center;
-        align-items: center;
     }
 }
 

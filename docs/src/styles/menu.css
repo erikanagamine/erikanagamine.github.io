@@ -58,6 +58,7 @@
     gap: 20px;
 }
 
+/* Mobile First: Default for mobile screens */
 @media screen and (max-width: 1170px) {
     #dishes {
         flex-wrap: wrap;
@@ -69,6 +70,14 @@
     }
 }
 
+/* Larger Screens */
+@media screen and (min-width: 1170px) {
+    .dish {
+        width: 25%;
+    }
+}
+
+/* Extra small screens */
 @media screen and (max-width: 600px) {
     .dish {
         width: 100%;
@@ -77,4 +86,4 @@
     #menu .section-subtitle {
         text-align: center;
     }
-} 
+}
