@@ -5,7 +5,7 @@ project:
 website:
   title: "Erika Nagamine"
   description: "Arquiteta de Soluções Especialista em Dados & IA (AWS). Golden Jacket. Palestrante e mentora."
-  site-url: "https://erikanagamine.github.io/exemplo-quarto/"
+  site-url: "https://erikanagamine.github.io/quarto/"
   navbar:
     logo: assets/logo-placeholder.svg
     left:
