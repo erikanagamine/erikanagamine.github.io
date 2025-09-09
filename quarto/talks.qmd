@@ -1,0 +1,15 @@
+
+---
+title: "Palestras & Participações"
+---
+
+Alguns destaques recentes e anteriores:
+
+- **TDC 2025 São Paulo — Trilha Analytics Engineering** · *Governança de dados: Em um mundo Data Mesh* (17/09/2025)
+- **TDC 2025 São Paulo — Trilha Arquitetura Cloud** · *Painel: A arquitetura preparada para um mundo movido por IA?* (17/09/2025)
+- **TDC 2025 Florianópolis — Trilha Engenharia de Dados** · *Analisando dados de aplicações com IA Generativa* (13/06/2025)
+- **TDC 2024 Summit Brasília — Big Data & Engenharia de Dados** · *Como integrar uma arquitetura moderna de dados a GenAI e Gen BI* (23/10/2024)
+- **Hipsters Ponto Tech #440** · *Carreiras: Especialista de Dados na AWS, com Erika Nagamine* (03/12/2024)
+- **IA Sob Controle #158** · *Data Analytics na AWS e IA no Brasil* (25/06/2025)
+
+Para convites e agenda, veja **Contato**.

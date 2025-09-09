@@ -1,0 +1,24 @@
+
+---
+title: "Olá, eu sou a Erika"
+page-layout: full
+---
+
+::: {.hero}
+# Especialista em Dados & IA — AWS Golden Jacket
+
+Sou Arquiteta de Soluções especialista em Analytics na AWS. Aqui compartilho ideias sobre **arquiteturas modernas de dados**, **governança**, **GenAI** e **carreira**.
+
+[LinkedIn](https://www.linkedin.com/in/erika-nagamine/){.btn .btn-primary}
+[GitHub](https://github.com/erikanagamine){.btn .btn-secondary}
+[Agenda de Palestras](talks.qmd){.btn}
+:::
+
+## Destaques
+
+- Conteúdos e apresentações sobre Data & AI
+- Materiais de estudo e trilhas de certificação
+- Mentoria e participação em comunidades
+
+> _“Curiosidade e consistência constroem uma carreira em tecnologia.”_
+

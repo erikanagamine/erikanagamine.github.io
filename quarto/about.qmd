@@ -1,0 +1,17 @@
+
+---
+title: "Sobre"
+---
+
+Sou **Erika Nagamine**, Arquiteta de Soluções Especialista em **Dados & IA** na **Amazon Web Services (AWS)** e **AWS Golden Jacket**.
+Atuo com arquitetura, engenharia e analytics de dados, ajudando empresas a criarem soluções modernas e governadas.
+
+Tenho formação em **Sistemas de Informação**, pós-graduações em **Administração de Banco de Dados** e **Engenharia de Dados**, e extensão em **mineração de dados complexos** (Unicamp).
+Também sou palestrante em eventos técnicos e mentora de carreira.
+
+### Interesses técnicos
+- Arquiteturas de dados (lakehouse, streaming, governança)
+- Engenharia de dados & analytics
+- IA e GenAI aplicada a negócios
+
+Se quiser conversar, me chame nas redes ou acesse a página **Contato**.

@@ -1,0 +1,25 @@
+
+/* Ajustes rápidos de identidade visual */
+:root {
+  --accent: #ffb703; /* amarelo quente */
+}
+
+a, .btn-primary {
+  border-radius: 12px;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.navbar-brand img {
+  height: 28px;
+}
+
+.hero {
+  padding: 3rem 1rem;
+}
+.hero h1 {
+  margin-bottom: .75rem;
+}

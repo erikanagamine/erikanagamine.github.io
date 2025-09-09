@@ -1,0 +1,40 @@
+
+project:
+  type: website
+
+website:
+  title: "Erika Nagamine"
+  description: "Arquiteta de Soluções Especialista em Dados & IA (AWS). Golden Jacket. Palestrante e mentora."
+  site-url: "https://erikanagamine.github.io/exemplo-quarto/"
+  navbar:
+    logo: assets/logo-placeholder.svg
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Sobre
+        href: about.qmd
+      - text: Palestras
+        href: talks.qmd
+      - text: Contato
+        href: contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/erikanagamine
+      - icon: linkedin
+        href: https://www.linkedin.com/in/erika-nagamine/
+      - icon: twitter
+        href: https://x.com/erikanagamine
+      - text: Instagram
+        href: https://www.instagram.com/erikanagamine/
+  page-footer:
+    left: "© 2025 Erika Nagamine"
+    right: "Feito com Quarto"
+  search: true
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    lang: pt-BR
+    toc: false
+    smooth-scroll: true
